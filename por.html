@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Monish Prabhu K - Portfolio</title>
+  <style>
+    :root {
+      --primary-color: #005f73;
+      --secondary-color: #0a9396;
+      --accent-color: #94d2bd;
+      --background-color: #fefae0;
+      --text-color: #001219;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--background-color);
+      color: var(--text-color);
+      line-height: 1.6;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    header {
+      background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      animation: fadeInDown 1s ease;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      animation: fadeInUp 1s ease;
+    }
+
+    .section-title {
+      color: var(--primary-color);
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      border-bottom: 2px solid var(--accent-color);
+      display: inline-block;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    a {
+      color: var(--secondary-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: var(--primary-color);
+      color: white;
+      margin-top: 30px;
+      animation: fadeIn 1s ease;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Monish Prabhu K</h1>
+    <p>Python Developer | Web Developer | Problem Solver</p>
+  </header>
+
+  <section class="contact">
+    <h2 class="section-title">Contact</h2>
+    <p>Email: <a href="mailto:monishkarunniyavannan@gmail.com">monishkarunniyavannan@gmail.com</a></p>
+    <p>Phone: +91 9655176499</p>
+    <p>Location: Chennai, India</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/monish-prabhu-k-a86287200/" target="_blank">Profile</a></p>
+    <p>GitHub: <a href="https://github.com/Gitmp3-gif" target="_blank">GitHub</a></p>
+  </section>
+
+  <section>
+    <h2 class="section-title">Professional Summary</h2>
+    <p>Electrical and Electronics Engineering graduate with strong skills in Python, Django, SQL, HTML, and CSS. Experienced in building web applications and solar energy projects. Passionate about developing efficient and innovative solutions.</p>
+  </section>
+
+  <section>
+    <h2 class="section-title">Skills</h2>
+    <ul>
+      <li>Python</li>
+      <li>Django</li>
+      <li>SQL</li>
+      <li>HTML & CSS</li>
+     
+      <li>Microsoft Office Tools</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 class="section-title">Projects</h2>
+    <ul>
+      <li><strong>Expense Tracker Web App</strong>: Django-based web app to track and categorize user expenses.</li>
+      <li><strong>2kW Solar Inverter</strong>: Designed and built a high-efficiency inverter system for solar PV.</li>
+      <li><strong>Solar Charge Controller</strong>: Developed with current booster for energy optimization and protection.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 class="section-title">Experience</h2>
+    <p><strong>Retech Laser Pvt. Ltd. – Internship</strong> (July 2023)</p>
+    <p>Worked on BLDC motor design, simulation, and efficiency testing. Gained experience in troubleshooting and system integration.</p>
+  </section>
+
+  <section>
+    <h2 class="section-title">Education</h2>
+    <ul>
+      <li>B.E. in Electrical & Electronics Engineering – SRM Valliammai Engineering College (2020–2024) | CGPA: 7.8</li>
+      <li>Class 12 – 60.3%</li>
+      <li>Class 10 – 80%</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 class="section-title">Certifications</h2>
+    <ul>
+      <li>Python Full Stack – Qspiders Institute</li>
+      <li>Data Analytics Job Simulation – Deloitte (Forage)</li>
+      <li>Innovation & Entrepreneurship Awareness</li>
+      <li>Digital Logic & Analog Circuits using PSpice</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Monish Prabhu K. All rights reserved.</p>
+  </footer>
+</body>
+</html>
